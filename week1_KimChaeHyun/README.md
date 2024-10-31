@@ -1,8 +1,5 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 구현 목록
+- [ ]  게시물은 12개 보이도록
+- [ ]  각 게시물에 들어가야 할 내용 (이미지, 제목, 설명, 날짜, 댓글개수, 글쓴이, 하트 아이콘 및 개수)
+- [ ]  필터링 기능은 x, 퍼블리싱만 하면 됨
+- [ ]  호버이벤트 해야함 (아이콘 호버 및 각 게시물 호버)

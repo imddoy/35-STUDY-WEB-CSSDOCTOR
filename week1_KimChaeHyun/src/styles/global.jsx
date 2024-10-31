@@ -12,7 +12,7 @@ const global = createGlobalStyle`
     html {
     font-size: 62.5%;
 
-    background-color: ${({ theme }) => theme.colors.backgroundBase};
+    background-color: ${({ theme }) => theme.colors.bgPage1};
 
     user-select: none;
     -webkit-touch-callout: none;
