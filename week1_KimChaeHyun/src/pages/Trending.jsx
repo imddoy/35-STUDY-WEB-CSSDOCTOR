@@ -1,14 +1,9 @@
 import React from 'react';
-import posts from '@data/post';
-import Post from '@components/post/Post';
+import PostList from '@components/post/PostList';
 
 const Trending = () => {
   return (
-    <>
-    {posts.map(post => (
-      <Post key={post.id} post={post} />
-    ))}
-  </>
+    <PostList />
   );
 };
 

@@ -1,9 +1,10 @@
 import React from 'react';
+import PostList from '@components/post/PostList';
 
 const Recent = () => {
   return (
-    <div>Recent</div>
-  )
+    <PostList />
+  );
 };
 
 export default Recent;
