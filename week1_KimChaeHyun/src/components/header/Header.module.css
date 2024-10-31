@@ -1,0 +1,41 @@
+.HeaderContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    padding: 1.2rem;
+}
+
+.HeaderBtnWrapper{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.HeaderIcon {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.WriteBtn{
+    width: 12rem;
+    height: 4rem;
+
+    color: var(--bg-element5);
+    border: 1px solid var(--bg-element5);
+    border-radius: 18px;
+    font: var(--heading4);
+}
+
+.ProfileWrapper{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.ProfileIcon{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+}
