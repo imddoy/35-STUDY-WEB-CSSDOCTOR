@@ -7,7 +7,8 @@ const posts = [
       "A comprehensive guide to managing state and lifecycle in React applications.",
     date: "2024-10-31",
     comments: 12,
-    author: "john_doe",
+    author: "john_doe",    
+    authorImage: "https://velog.velcdn.com/images/imddoy/profile/01b111b5-7ab9-45f6-98fd-fc7d6dba71d4/social_profile.jpeg",
     hearts: 34,
   },
   {
@@ -18,7 +19,8 @@ const posts = [
       "Why TypeScript is essential for modern JavaScript development.",
     date: "2024-10-29",
     comments: 7,
-    author: "jane_smith",
+    author: "jane_smith", 
+    authorImage: "https://velog.velcdn.com/images/imddoy/profile/01b111b5-7ab9-45f6-98fd-fc7d6dba71d4/social_profile.jpeg",
     hearts: 56,
   },
   {
@@ -29,7 +31,8 @@ const posts = [
       "CSS Grid offers a new way to build layouts on the web. This guide will help you master it.",
     date: "2024-10-25",
     comments: 4,
-    author: "frontend_nerd",
+    author: "frontend_nerd",    authorImage: "https://velog.velcdn.com/images/imddoy/profile/01b111b5-7ab9-45f6-98fd-fc7d6dba71d4/social_profile.jpeg",
+
     hearts: 23,
   },
   {
@@ -40,7 +43,8 @@ const posts = [
       "Node.js is a powerful tool for backend development. Here's how to start.",
     date: "2024-10-20",
     comments: 10,
-    author: "dev_guru",
+    author: "dev_guru",    authorImage: "https://velog.velcdn.com/images/imddoy/profile/01b111b5-7ab9-45f6-98fd-fc7d6dba71d4/social_profile.jpeg",
+
     hearts: 48,
   },
   {
@@ -51,7 +55,8 @@ const posts = [
       "Enhance your JavaScript skills by learning the key features of ES6.",
     date: "2024-10-15",
     comments: 5,
-    author: "code_master",
+    author: "code_master",    authorImage: "https://velog.velcdn.com/images/imddoy/profile/01b111b5-7ab9-45f6-98fd-fc7d6dba71d4/social_profile.jpeg",
+
     hearts: 39,
   },
   {
@@ -63,6 +68,8 @@ const posts = [
     date: "2024-10-10",
     comments: 3,
     author: "web_creator",
+    authorImage: "https://velog.velcdn.com/images/imddoy/profile/01b111b5-7ab9-45f6-98fd-fc7d6dba71d4/social_profile.jpeg",
+
     hearts: 25,
   },
   {
@@ -74,6 +81,8 @@ const posts = [
     date: "2024-10-05",
     comments: 9,
     author: "posts_wiz",
+    authorImage: "https://velog.velcdn.com/images/imddoy/profile/01b111b5-7ab9-45f6-98fd-fc7d6dba71d4/social_profile.jpeg",
+
     hearts: 61,
   },
   {
@@ -84,6 +93,8 @@ const posts = [
     date: "2024-10-01",
     comments: 15,
     author: "js_fanatic",
+    authorImage: "https://velog.velcdn.com/images/imddoy/profile/01b111b5-7ab9-45f6-98fd-fc7d6dba71d4/social_profile.jpeg",
+
     hearts: 49,
   },
   {
@@ -94,6 +105,8 @@ const posts = [
     date: "2024-09-29",
     comments: 6,
     author: "api_guru",
+    authorImage: "https://velog.velcdn.com/images/imddoy/profile/01b111b5-7ab9-45f6-98fd-fc7d6dba71d4/social_profile.jpeg",
+
     hearts: 42,
   },
   {
@@ -104,6 +117,8 @@ const posts = [
     date: "2024-09-25",
     comments: 8,
     author: "animator",
+    authorImage: "https://velog.velcdn.com/images/imddoy/profile/01b111b5-7ab9-45f6-98fd-fc7d6dba71d4/social_profile.jpeg",
+
     hearts: 33,
   },
   {
@@ -114,6 +129,8 @@ const posts = [
     date: "2024-09-20",
     comments: 4,
     author: "debug_master",
+    authorImage: "https://velog.velcdn.com/images/imddoy/profile/01b111b5-7ab9-45f6-98fd-fc7d6dba71d4/social_profile.jpeg",
+
     hearts: 18,
   },
   {
@@ -125,6 +142,7 @@ const posts = [
     date: "2024-09-15",
     comments: 2,
     author: "perf_wizard",
+    authorImage: "https://velog.velcdn.com/images/imddoy/profile/01b111b5-7ab9-45f6-98fd-fc7d6dba71d4/social_profile.jpeg",
     hearts: 27,
   },
 ];

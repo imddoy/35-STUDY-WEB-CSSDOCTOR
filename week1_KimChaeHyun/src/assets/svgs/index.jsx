@@ -1,4 +1,5 @@
 export { default as IcFeed } from "./IcFeed";
+export { default as IcLike } from "./IcLike";
 export { default as IcMore } from "./IcMore";
 export { default as IcRec } from "./IcRec";
 export { default as IcTrend } from "./IcTrend";
