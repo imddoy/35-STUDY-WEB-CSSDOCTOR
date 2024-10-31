@@ -15,20 +15,20 @@
   display: flex;
   align-items: center;
   gap: 0.3rem;
-  color: #6c757d;
+  color: var(--text3);
   cursor: pointer;
   padding: 0.5rem;
   font-weight: 500;
 }
 
 .tabItem:hover {
-  color: #343a40;
+  color: var(--accent2);
 }
 
 .active {
-  color: #212529;
+  color: var(--text1);
   font-weight: bold;
-  border-bottom: 2px solid #212529;
+  border-bottom: 2px solid var(--text1);
 }
 
 .icon {
@@ -40,7 +40,7 @@
 }
 
 .moreButton {
-  color: #6c757d;
+  color: var(--text3);
   font-size: 1.5rem;
   cursor: pointer;
 }
