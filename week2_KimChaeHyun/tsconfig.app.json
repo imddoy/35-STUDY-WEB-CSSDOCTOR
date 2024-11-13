@@ -28,7 +28,7 @@
       "@apis/*": ["src/apis/*"],
       "@assets/*": ["src/assets/*"],
       "@components/*": ["src/components/*"],
-      "@constants/*": ["src/constants/*"],
+      "@constants/*": ["src/components/common/sidebar/constants/*"],
       "@hooks": ["src/hooks/*"],
       "@pages/*": ["src/pages/*"],
       "@routes": ["src/routes"],
@@ -36,7 +36,8 @@
       "@styles/*": ["src/styles/*"],
       "@typings/*": ["src/typings/*"],
       "@utils/*": ["src/utils/*"],
-      "@admin/*": ["src/admin/*"]
+      "@admin/*": ["src/admin/*"],
+      "@datas/*": ["src/datas/*"]
     }
   },
   "include": ["src", "global.d.ts", "api", "public/deployLoading.js"]

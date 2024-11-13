@@ -4,3 +4,12 @@
   width: calc(100% - 24.2rem);
   margin-left: 24.2rem;
 }
+
+.mainWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 63rem;
+
+  border: 1px solid #121212;
+}

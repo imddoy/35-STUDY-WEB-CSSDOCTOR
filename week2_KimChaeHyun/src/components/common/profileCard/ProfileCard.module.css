@@ -1,0 +1,50 @@
+.cardWrapper {
+  display: flex;
+  align-items: center;
+  width: 32rem;
+  padding: 1rem;
+
+  list-style: none;
+
+  button {
+    color: #0095f6;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-align: right;
+
+    background: none;
+    border: none;
+  }
+}
+
+.imgWrapper {
+  width: 4.4rem;
+  height: 4.4rem;
+
+  img {
+    width: inherit;
+
+    border-radius: 50%;
+  }
+}
+
+.cardInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 18rem;
+
+  font-size: 1.2rem;
+
+  p:first-of-type {
+    font-weight: 700;
+  }
+
+  p:nth-of-type(2) {
+    overflow: hidden;
+
+    color: #555;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+}

@@ -1,9 +1,9 @@
 import styles from "./Sidebar.module.css";
 import SideMenu from "./SideMenu";
-import { menuItems } from "@constants/menuItems";
+import { menuItems } from "@components/common/sidebar/constants/menuItems";
 import { IcTextlogo } from "@assets/svgs";
 import { useState } from "react";
-import { footerMenuItems } from "@constants/footerMenuItems";
+import { footerMenuItems } from "@components/common/sidebar/constants/footerMenuItems";
 
 const Sidebar = () => {
   const [selected] = useState(0);
