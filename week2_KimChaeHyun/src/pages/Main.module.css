@@ -1,0 +1,6 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: calc(100% - 24.2rem);
+  margin-left: 24.2rem;
+}
