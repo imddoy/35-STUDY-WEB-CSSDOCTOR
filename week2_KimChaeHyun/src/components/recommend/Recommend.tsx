@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./Recommend.module.css";
 import { userData } from "@datas/userData";
 import ProfileCard from "@components/common/profileCard/ProfileCard";
@@ -8,9 +7,9 @@ const Recommend = () => {
   return (
     <div className={styles.recommendWrapper}>
       <ProfileCard img={userData.img} id={userData.id} description={userData.name} text="전환" />
-      <div>
+      <div className={styles.recommendTitle}>
         <h2>회원님을 위한 추천</h2>
-        <p>모두보기</p>
+        <p>모두 보기</p>
       </div>
       {recommendationLists.map((user, index) => (
         <ProfileCard

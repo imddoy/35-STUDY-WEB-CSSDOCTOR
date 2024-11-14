@@ -1,4 +1,6 @@
 export { default as IcAdd } from "./IcAdd";
+export { default as IcArrowLeft } from "./IcArrowLeft";
+export { default as IcArrowRight } from "./IcArrowRight";
 export { default as IcBurger } from "./IcBurger";
 export { default as IcComment } from "./IcComment";
 export { default as IcExplore } from "./IcExplore";

@@ -9,9 +9,9 @@ const SvgIcMore = (props: SVGProps<SVGSVGElement>) => (
     viewBox="0 0 14 3"
     {...props}
   >
-    <circle cx={1.5} cy={1.5} r={1.5} fill="#000" />
-    <circle cx={7} cy={1.5} r={1.5} fill="#000" />
-    <circle cx={12.5} cy={1.5} r={1.5} fill="#000" />
+    <circle cx={1.5} cy={1.5} r={1.5} fill="currentColor" />
+    <circle cx={7} cy={1.5} r={1.5} fill="currentColor" />
+    <circle cx={12.5} cy={1.5} r={1.5} fill="currentColor" />
   </svg>
 );
 export default SvgIcMore;

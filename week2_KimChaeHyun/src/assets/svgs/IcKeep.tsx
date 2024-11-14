@@ -10,7 +10,7 @@ const SvgIcKeep = (props: SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      stroke="#000"
+      stroke="currentColor"
       strokeLinejoin="round"
       strokeWidth={1.8}
       d="M3.9 21.079V1.9h16.2v19.179l-7.524-6.27a.9.9 0 0 0-1.152 0z"

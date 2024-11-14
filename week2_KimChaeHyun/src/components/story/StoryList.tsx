@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import Story from "./Story";
 import { sampleStories } from "./datas/stories";
 import styles from "./StoryList.module.css";
+import { IcArrowLeft, IcArrowRight } from "@assets/svgs";
 
 const StoryList = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -45,9 +46,10 @@ const StoryList = () => {
   return (
     <div className={styles.storyWrapper}>
       {canScrollLeft && (
-        <button onClick={() => handleScroll("left")} className={`${styles.button} ${styles.left}`}>
-          &lt;
-        </button>
+        <IcArrowLeft
+          onClick={() => handleScroll("left")}
+          className={`${styles.button} ${styles.left}`}
+        />
       )}
       <div ref={containerRef} className={styles.storyContainer}>
         {sampleStories.map((story, index) => (
@@ -55,12 +57,10 @@ const StoryList = () => {
         ))}
       </div>
       {canScrollRight && (
-        <button
+        <IcArrowRight
           onClick={() => handleScroll("right")}
           className={`${styles.button} ${styles.right}`}
-        >
-          &gt;
-        </button>
+        />
       )}
     </div>
   );
