@@ -7,11 +7,24 @@
   text-align: center;
 }
 
+.imageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 6.5rem;
+  height: 6.5rem;
+
+  background: linear-gradient(-135deg, #c913b9, #f9373f 50%, #fecd00);
+  border-radius: 50%;
+}
+
 .image {
+  box-sizing: border-box;
   width: 6rem;
   height: 6rem;
 
-  border: 3px solid #ff385c;
+  border: 3px solid #fff;
   border-radius: 50%;
 }
 

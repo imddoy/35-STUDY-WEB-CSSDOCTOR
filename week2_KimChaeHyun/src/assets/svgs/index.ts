@@ -10,7 +10,6 @@ export { default as IcLike } from "./IcLike";
 export { default as IcMore } from "./IcMore";
 export { default as IcNew } from "./IcNew";
 export { default as IcReels } from "./IcReels";
-export { default as IcRing } from "./IcRing";
 export { default as IcSearch } from "./IcSearch";
 export { default as IcShare } from "./IcShare";
 export { default as IcTextlogo } from "./IcTextlogo";

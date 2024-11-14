@@ -9,7 +9,9 @@ interface StoryProps {
 const Story = ({ img, username }: StoryProps) => {
   return (
     <div className={styles.story}>
-      <img src={img} alt={username} className={styles.image} />
+      <div className={styles.imageWrapper}>
+        <img src={img} alt={username} className={styles.image} />
+      </div>{" "}
       <p className={styles.username}>{username}</p>
     </div>
   );
