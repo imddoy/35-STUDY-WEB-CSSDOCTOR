@@ -48,11 +48,82 @@
   }
 }
 
-.postImg {
-  display: block;
+.carouselWrapper {
+  position: relative;
   width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carouselContainer {
+  display: flex;
+  overflow: hidden;
 
   border-radius: 4px;
+
+  transition: transform 0.3s ease-in-out;
+  scroll-behavior: smooth;
+}
+
+.carouselItem {
+  min-width: 100%;
+  aspect-ratio: 3/4;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.leftButton,
+.rightButton {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  width: 3rem;
+  height: 3rem;
+
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.leftButton {
+  left: 1rem;
+}
+
+.rightButton {
+  right: 1rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.indicators {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+
+  transform: translateX(-50%);
+}
+
+.indicator {
+  width: 0.8rem;
+  height: 0.8rem;
+
+  background-color: #555;
+  border-radius: 50%;
+
+  transition: background-color 0.3s;
+}
+
+.indicator.active {
+  background-color: #fff;
 }
 
 .actions {
