@@ -1,4 +1,4 @@
-import user from "@assets/jpgs/user.jpg";
+import user from "@assets/user.jpg";
 
 export const userData = {
   img: <img src={user} />,

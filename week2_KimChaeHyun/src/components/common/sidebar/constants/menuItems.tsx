@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import { IcAdd, IcExplore, IcHome, IcLike, IcReels, IcSearch, IcShare } from "@assets/svgs";
-import user from "@assets/jpgs/user.jpg";
+import user from "@assets/user.jpg";
 
 export interface MenuItem {
   icon: ReactNode;
